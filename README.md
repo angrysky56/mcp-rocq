@@ -19,6 +19,8 @@ MCP-RoCQ is a Model Context Protocol server that provides advanced logical reaso
 
 1. Install the Coq Platform 8.19 (2024.10)
 
+Coq is a formal proof management system. It provides a formal language to write mathematical definitions, executable algorithms and theorems together with an environment for semi-interactive development of machine-checked proofs.
+
 [https://github.com/coq/platform](https://github.com/coq/platform)
 
 2. Clone this repository:
