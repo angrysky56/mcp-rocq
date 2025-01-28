@@ -25,7 +25,9 @@ Coq is a formal proof management system. It provides a formal language to write 
 
 2. Clone this repository:
 
+```bash
 git clone https://github.com/angrysky56/mcp-rocq.git
+```
 
 cd to the repo
 
