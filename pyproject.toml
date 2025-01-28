@@ -1,0 +1,22 @@
+[project]
+name = "mcp_rocq"  
+version = "0.1.0"
+description = "MCP server for advanced logical reasoning using Coq"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp>=1.0.0",
+    "pydantic>=2.0.0"
+]
+
+[project.scripts]
+mcp_rocq = "mcp_rocq.server:cli"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mcp_rocq"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
